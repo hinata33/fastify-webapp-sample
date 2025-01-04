@@ -2,7 +2,9 @@ SuiteOf('スモークテスト');
 
 
 Scenario('Webサイトを開きログインする',  ({ I }) => {
-I.amOnPage('https://fastify-webapp-sample-production-54ee.up.railway.app/items')
+//console.log(`Base URL: ${process.env.BASE_URL}`);
+//I.amOnPage(process.env.BASE_URL);
+I.amOnPage('/')
 I.click('ログインする')
 I.fillField('ユーザー名','user1')
 I.fillField('パスワード','super-strong-passphrase')
