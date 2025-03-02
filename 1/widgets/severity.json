@@ -1,0 +1,1 @@
+[{"uid":"804f887b2b387ccb","name":"Webサイトを開きログインする","time":{"start":1740830230261,"stop":1740830232108,"duration":1847},"status":"passed","severity":"normal"},{"uid":"2332fe1aeee0dedc","name":"ユーザーが存在しないURLにアクセスすると、エラーメッセージと商品一覧へのリンクが表示される","time":{"start":1740830227833,"stop":1740830230239,"duration":2406},"status":"passed","severity":"normal"}]
